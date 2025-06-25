@@ -89,6 +89,9 @@ pub struct PullFeedAccountData {
     _ebuf2: [u8; 256],
 }
 
+// lifted from IDL
+pub const PULL_FEED_ACCOUNT_DISCRIMINATOR: [u8; 8] = [196, 27, 108, 196, 10, 215, 219, 40];
+
 #[derive(Debug)]
 #[zero_copy]
 pub struct CompactResult {
