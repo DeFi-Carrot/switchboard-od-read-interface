@@ -1,8 +1,10 @@
+cargo-features = ["edition2024"]
+
 [package]
 name = "switchboard-od-read-interface"
 version = "0.1.0"
 description = "Interface to read switchboard-on-demand aggregator data"
-edition = "2021"
+edition = "2024"
 
 [lib]
 crate-type = ["cdylib", "lib"]
