@@ -2,9 +2,11 @@ cargo-features = ["edition2024"]
 
 [package]
 name = "switchboard-od-read-interface"
-version = "0.3.0"
+version = "0.3.1"
 description = "Interface to read switchboard-on-demand aggregator data"
 edition = "2024"
+license = "MIT"
+repository = "https://github.com/DeFi-Carrot/switchboard-od-read-interface"
 
 [lib]
 crate-type = ["cdylib", "lib"]
