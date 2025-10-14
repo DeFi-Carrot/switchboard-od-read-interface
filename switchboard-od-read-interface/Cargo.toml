@@ -1,8 +1,10 @@
+cargo-features = ["edition2024"]
+
 [package]
 name = "switchboard-od-read-interface"
-version = "0.1.0"
+version = "0.2.0"
 description = "Interface to read switchboard-on-demand aggregator data"
-edition = "2021"
+edition = "2024"
 
 [lib]
 crate-type = ["cdylib", "lib"]
@@ -15,7 +17,7 @@ test-bpf = []
 debug = []
 
 [dependencies]
-anchor-lang = "0.29.0"
+anchor-lang = "0.31.1"
 bytemuck = { version = "1.4.0", features = ["derive", "min_const_generics"] }
 rust_decimal = "1.32.0"
 static_assertions = "1.1.0"
